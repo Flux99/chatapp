@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({
 
 app.use(express.static("public"));
 
-// const connection = new Sequelize("new", "postgres", "123", {
+// const connection = new Sequelize("new", "postgres", "", {
 //   host:'localhost',
 //   dialect: 'postgres',
 //   //storage: 'database.sqlite'
