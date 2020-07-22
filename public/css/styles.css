@@ -1,0 +1,24 @@
+body{
+  /* display:flex; */
+  justify-content: center;
+}
+#message-container{
+  width:80%;
+  max-width: 1000px;
+}
+#message-container div{
+  background-color: #3ca59d;
+  padding: 5px;
+}
+#message-container div:nth-child(2n){
+  background-color: #87dfd6;
+  padding: 5px;
+}
+.center{
+  margin: 0 auto;
+  padding-left: 0;
+  width:80%;
+  max-width: 1000px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
